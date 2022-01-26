@@ -7,34 +7,6 @@
   --default-font-family: font-family: 'Poppins', sans-serif;
 }
 
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
-  color: rgba(39, 33, 66, 0.7);
-  text-decoration: none;
-}
-
-nav a:hover, 
-nav li.active a {
-  color: var(--primary-color);
-  transition: all 100ms ease-in-out;
-}
-
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -56,8 +28,26 @@ p {
     line-height: 30px;
 }
 
-.logo {
-  max-height: 40px;
+.navbar-brand {
+  padding: 0 20px;
+}
+
+.nav-link {
+  color: rgba(39, 33, 66, 0.7);
+}
+
+.nav-link :active {
+  color: black !important;
+}
+
+.navbar-brand:hover, 
+.nav-link:hover {
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.nav-item {
+  padding: 0 10px;
 }
 
 .hero {
@@ -161,10 +151,6 @@ p {
 }
 
 @media (max-width: 992px) {
-
-  nav a {
-    font-size: 14px;
-  }
 
   .project-description {
     text-align: center;
