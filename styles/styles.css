@@ -148,7 +148,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -179,6 +179,16 @@ footer .social-links a:hover {
 
 .content {
   margin: 20 30px;
+}
+
+.links {
+  text-decoration: none;
+  color: var(--primary-color);
+} 
+
+.links:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
 }
 
 @media (max-width: 1200px) {
